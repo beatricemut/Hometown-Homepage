@@ -1,0 +1,73 @@
+body,
+html {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.main-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/welcome.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.main-text {
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.history {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+h3 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #120c2c;
+    border-bottom: 6px solid orangered;
+    border-radius: 10px;
+}
+
+.coa-info,
+.mw-info,
+.mine-info,
+.fp-info {
+    padding: 20px;
+}
+
+.coat-of-arms,
+.copper-mine,
+.wanderers-fc,
+.former-president {
+    width: 200px;
+}
+
+
+.other-info {
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+}
