@@ -63,11 +63,39 @@ h3 {
 
 .other-info {
     margin-left: 200px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 footer {
     text-align: center;
     padding: 2em;
     font-weight: bold;
+}
+
+#button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: large;
+    background-color: orangered;
+    color: aliceblue;
+    font-weight: bold;   
+}
+
+#button:hover {
+    background-color: rgb(14, 68, 50);
+}
+
+.moreInfo {
+    margin-left: 200px;
+    padding-top: 50px;
+}
+
+#links {
+    padding-top: 20px;
+   
+}
+
+a {
+    text-decoration: none;
 }
